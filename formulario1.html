@@ -9,10 +9,32 @@
 <body>
 	<h1>Cadastro</h1>
 	<form action="">
-		Nome: <input type="text" name="nome" >
-		<br>
-		<br>
+		<fieldset>
+			<legend>Dados pessoais</legend>
+			<label>Nome:</label> 
+			<input type="text" name="nome" >
+			<br>
+			<br>
+			<label>E-mail:</label>
+			<input type="email" name="email">
+			<br>
+			<br>
+			<label>Data:</label>
+			<input type="date" name="data">
+			<br>
+			<br>
+			<label>Cor:</label>
+			<input type="color" name="cor">
+			<br>
+			<br>
+			<label>Foto:</label>
+			<input type="file" name="foto">
+			<br>
+			<br>
+		</fieldset>
 		<input type="submit" value="Enviar">
+		<input type="reset" values="Limpar">
+
 	</form>
 	
 </body>
