@@ -8,7 +8,8 @@
 </head>
 <body>
 	<h1>Cadastro</h1>
-	<form action="">
+	<!-- <form method="get" action="recebe.php"> -->
+	<form method="post" action="recebe.php">
 		<fieldset>
 			<legend>Dados pessoais</legend>
 			<label>Nome:</label> 
@@ -114,6 +115,8 @@
 		<input type="reset" values="Limpar">
 
 	</form>
+	<!-- formulario método GET enviando dados ao servidor via ancora, dados da ana -->
+	<a href="recebe.php?codigo=1&nome=ana&sexo=F">Ana</a>
 	
 </body>
 </html>
